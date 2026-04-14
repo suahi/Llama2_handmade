@@ -2,7 +2,7 @@ import argparse
 import torch
 from Llama import Transformer as Model
 from transformers import AutoTokenizer
-import dataLoader
+import DataLoader
 
 
 def pretrain():
